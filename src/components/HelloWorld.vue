@@ -26,7 +26,7 @@
     <div id="button">
     <div id="button_container_1">
         
-        <button type="button" class="btn btn-primary" @click="addItem()">Add a row</button>
+        <button type="button" class="btn btn-primary" @click="addItem()">Hinzufügen</button>
     </div>
 <br>
 </div>
@@ -45,7 +45,7 @@
                 <td> {{row.doings}} </td>
                 <td>{{row.todaydoings}}</td>
                 <td> {{row.problems}} </td>
-                <td><button @click="deleteRow(id, row)">Delete</button></td> 
+                <td><button @click="deleteRow(id, row)">Lösche</button></td> 
             </tr>
 
         </table>
@@ -69,6 +69,7 @@ export default {
   data() {
   
     return {
+      
       date: "",
       doings: "",
       todaydoings: "",
@@ -76,9 +77,8 @@ export default {
 
       rowData: [
         
-        { id: 1, date: '01.12.2020', doings: 'lesen', todaydoings: 'Programm', problems: 'keine'  },
-        { id: 2, date: '02.12.2020', doings: 'lesen', todaydoings: 'Programm', problems: 'keine'  },
-        { id: 3, date: '03.12.2020', doings: 'lesen', todaydoings: 'Programm', problems: 'keine'  }
+        { id: 1, date: " ", doings: " ", todaydoings: " ", problems: " "  },
+        
       ]
 
     };  
