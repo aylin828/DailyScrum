@@ -2,19 +2,19 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <Daily ueberSchrift = "Daily Scrum "/>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <TabelleDaily msg="Welcome to Your Vue.js App"/>
     
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TabelleDaily from './components/TabelleDaily.vue'
 import Daily from './components/Daily.vue'
 
 export default {
   name: 'App',
   components: {
-   HelloWorld,
+   TabelleDaily,
     Daily
   }
 }

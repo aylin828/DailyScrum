@@ -62,7 +62,7 @@ Vue.use(VueAxios, axios)
 export default {
   
   
-  name: 'HelloWorld',
+  name: 'TabelleDaily',
   props: {
     msg: String
   },
